@@ -1,6 +1,6 @@
 function [ drought droughtclasses droughtA droughtMA droughtMAM droughtMAS droughtMAE droughtADD droughtADS droughtADI ] = STAND_LSD_NCDA( indicator,mask,n,nondata,tini,tfin )
 %STAND_LSD_NCDA Computes drought and its characteristics from a matrix
-%(Longitud x Latitude x Time) containing drought indicator values like SPI or similar, here time is in months
+%(Latitude x Longitud x Time) containing drought indicator values like SPI/SPEI or similar, here time is in months
 % STAND-LSD stands for Spatio-Temporal ANalysis of Large-Scale Drought
 
 %[drought droughtclasses droughtA droughtMA droughtADD droughtADS droughtADI droughtDSI] = STAND_LSD_NCDA( indicator,mask,n,nondata,tini,tfin )
@@ -28,7 +28,7 @@ function [ drought droughtclasses droughtA droughtMA droughtMAM droughtMAS droug
 %by Vitali Diaz
 %vitalidime@gmail.com
 %IHE Delft
-%updated: 2016 Feb
+%updated: 2017 Feb
 %
 
 %%
@@ -40,7 +40,7 @@ function [ drought droughtclasses droughtA droughtMA droughtMAM droughtMAS droug
 class=[-1,-1.5,-2];  %SPI, SPEI
 
 %%Drought <=classlim
-classlim=-1;  %SPI, SPEI
+classlim=-1;  %or 0, SPI, SPEI
 
 %STARTING
 if nargin<=3
