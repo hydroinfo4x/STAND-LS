@@ -33,7 +33,8 @@ function [ drought droughtclasses droughtA droughtMA droughtMAM droughtMAS droug
 %vitalidime@gmail.com
 %IHE Delft
 %
-% have a look at https://github.com/hydroinfo4x!
+% have a look at https://github.com/hydroinfo4x
+% and https://www.researchgate.net/project/STAND-Spatio-Temporal-ANalysis-of-Drought
 %
 %updated: March 2018
 %
