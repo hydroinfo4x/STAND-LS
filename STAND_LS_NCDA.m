@@ -35,7 +35,7 @@ function [ drought droughtclasses droughtA droughtMA droughtMAM droughtMAS droug
 %
 % have a look at https://github.com/hydroinfo4x!
 %
-%updated: 2018 March
+%updated: March 2018
 %
 
 %%
